@@ -1,5 +1,5 @@
+/* @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Outfit:wght@100..900&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
-
 
 * {
   margin: 0;
@@ -9,8 +9,8 @@
 
 body {
   height: 100vh;
-  background-color: #161513;
+  background-color: #000000;
   color: white;
-  font-family: 'Outfit', sans-serif;
+  font-family: "jetbrains mono", "outfit", sans-serif;
 
 }
