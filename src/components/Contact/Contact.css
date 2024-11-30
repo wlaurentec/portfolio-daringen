@@ -111,3 +111,51 @@
 .contact-submit:hover{
   transform: scale(1.1);
 }
+
+@media (max-width: 768px) {
+  .contact{
+    gap: 50px;
+    margin: 50px 70px;
+    align-items: start;
+  }
+  .contact-title h1{
+    font-size: 50px;
+    padding: 0;
+  }
+  .contact-title img{
+    width: 130px;
+    right: -20px;
+  }
+  .contact-section{
+    flex-direction: column;
+  }
+  .contact-left h1{
+    font-size: 54px;
+  }
+  .contact-left p{
+    font-size: 18px;
+  }
+  .contact-detail{
+    gap: 20px;
+  }
+  .contact-detail img{
+    width: 25px;
+  }
+  .contact-right label{
+    font-size: 20px;
+  }
+  .contact-right input{
+    width: 100%;
+    font-size: 20px;
+  }
+  .contact-right textarea{
+    width: 95%;
+    font-size: 20px;
+
+  }
+  .contact-submit{
+    padding: 15px 40px;
+    font-size: 20px;
+  }
+
+}
