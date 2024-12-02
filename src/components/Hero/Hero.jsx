@@ -7,10 +7,13 @@ const Hero = () => {
     <div className="hero" id="home">
       <img src={profile_img} alt="" />
       <h1>
-        <span>I'm Walter Laurente,</span> <br />Full Stack Developer.
+        <span>I'm Walter Laurente,</span> <br />
+        Full Stack Developer.
       </h1>
       <p>
-      I am a Full-Stack Developer with 1.5 years of experience working on a variety of projects, including eCommerce platforms, background removal tools, and text-to-image SaaS applications.
+        I am a Full-Stack Developer with 1.5 years of experience working on a
+        variety of projects, including eCommerce platforms, background removal
+        tools, and text-to-image SaaS applications.
       </p>
       <div className="hero-action">
         <div className="hero-connect">
@@ -18,8 +21,11 @@ const Hero = () => {
             Connetc with me
           </AnchorLink>
         </div>
-
-        <div className="hero-resume">My resume</div>
+        <div className="hero-resume">
+          <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+            My Resume
+          </a>
+        </div>
       </div>
     </div>
   );

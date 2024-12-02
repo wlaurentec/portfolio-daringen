@@ -6,20 +6,6 @@
   margin: 20px 170px;
 }
 
-/* .navbar {
-  position: fixed; 
-  top: 0; 
-  left: 0; 
-  width: 100%; 
-  z-index: 1000;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1rem 2rem;
-  background-color: black; 
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-} */
-
 .nav-menu {
   display: flex;
   align-items: center;
@@ -29,16 +15,23 @@
 }
 
 .nav-connect {
-  padding: 20px 40px;
-  border-radius: 10px;
-  background: linear-gradient(267deg, #da7c25 0.36%, #b923e1 102.06%);
-  font-size: 22px;
+  font-size: 30px;
   cursor: pointer;
+  transition: transform 0.3s ease, color 0.3s ease;
+  display: flex;
+  align-items: center;
   transition: 0.3s;
+  gap: 30px;
 }
 
-.nav-connect:hover {
-  transform: scale(1.05);
+.nav-connect a {
+  color: white; /* Set the icon color */
+  text-decoration: none; /* Remove underline from links */
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.nav-connect a:hover {
+  transform: scale(1.2); /* Slightly enlarge the icon on hover */
 }
 
 .nav-menu li {

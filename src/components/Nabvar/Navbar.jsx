@@ -5,6 +5,9 @@ import { useRef, useState } from "react";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import menu_open from "../../assets/menu_open.svg";
 import menu_close from "../../assets/menu_close.svg";
+import { FaLinkedin } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
+
 const Navbar = () => {
   const [menu, setMenu] = useState("home");
   const menuRef = useRef();
@@ -21,8 +24,13 @@ const Navbar = () => {
     <div className="navbar">
       <img src={logo} alt="" />
       <img src={menu_open} onClick={openMenu} className="nav-mob-open" alt="" />
-      <ul  ref={menuRef} className="nav-menu">
-        <img src={menu_close} onClick={closeMenu} className="nav-mob-close" alt="" />
+      <ul ref={menuRef} className="nav-menu">
+        <img
+          src={menu_close}
+          onClick={closeMenu}
+          className="nav-mob-close"
+          alt=""
+        />
         <li>
           <AnchorLink className="anchor-link" offset={50} href="#home">
             <p onClick={() => setMenu("home")}>Home</p>
@@ -56,9 +64,22 @@ const Navbar = () => {
         </li>
       </ul>
       <div className="nav-connect">
-        <AnchorLink className="anchor-link" offset={50} href="#contact">
-          Connetc with me
-        </AnchorLink>
+        <a
+          className="anchor-link"
+          href="https://www.linkedin.com/in/walter-laurente-17bbab109/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaLinkedin />
+        </a>
+        <a
+          className="anchor-link"
+          href="https://github.com/wlaurentec"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaGithub />
+        </a>
       </div>
     </div>
   );

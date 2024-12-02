@@ -39,7 +39,7 @@
   border-radius: 10px;
   border: 2px solid white;
   transition: 0.4s;
-  cursor: pointer;
+  /* cursor: pointer; */
 }
 
 .services-format h2 {

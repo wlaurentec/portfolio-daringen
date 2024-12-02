@@ -2,12 +2,11 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* margin-top: 40px; */
   gap: 35px;
 }
 
 .hero img {
-  margin-top: 150px;
+  /* margin-top: 20px; */
 }
 
 .hero h1 {
@@ -56,6 +55,12 @@
   cursor: pointer;
   transition: 0.3s;
 }
+
+.hero-resume a {
+  text-decoration: none;
+  color: white;
+}
+
 
 .hero-connect:hover {
   border: 2px solid #fff;

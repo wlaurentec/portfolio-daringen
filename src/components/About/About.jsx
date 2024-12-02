@@ -16,13 +16,14 @@ const About = () => {
         <div className="about-right">
           <div className="about-para">
             <p>I am a Full Stack Developer with a background in finance, passionate about creating innovative tech solutions. My previous experience gave me deep insights into financial systems and business dynamics.</p>
-            <p>Leveraging technologies like MERN and PERN (MongoDB, PostgreSQL, Express, React, and Node.js), I build dynamic web applications. I excel at solving complex problems by blending financial expertise with cutting-edge technology.</p>
+            <p>Leveraging technologies such as MERN and PERN (MongoDB, PostgreSQL, Express, React, and Node.js), I build dynamic web applications. I excel at solving complex problems by blending financial expertise with cutting-edge technology.</p>
+            <p>Basic knowledge with Java, Python, and PHP frameworks like Spring, FastAPI, and Laravel.</p>
           </div>
           <div className="about-skills">
-            <div className="about-skill"><p>HTML & CSS</p><hr style={{ width: "55%" }} /></div>
-            <div className="about-skill"><p>JavaScript</p><hr style={{ width: "70%" }} /></div>
-            <div className="about-skill"><p>React</p><hr style={{ width: "90%" }} /></div>
-            <div className="about-skill"><p>Next JS</p><hr style={{ width: "80%" }} /></div>
+            <div className="about-skill"><p>React</p><hr style={{ width: "60%" }} /></div>
+            <div className="about-skill"><p>Next JS</p><hr style={{ width: "40%" }} /></div>
+            <div className="about-skill"><p>Node</p><hr style={{ width: "70%" }} /></div>
+            <div className="about-skill"><p>Express</p><hr style={{ width: "80%" }} /></div>
           </div>
         </div>
       </div>

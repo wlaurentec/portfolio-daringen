@@ -15,6 +15,10 @@
   max-width: 500px;
 }
 
+.footer-top-left img{
+  margin-bottom: 2cqmin;
+}
+
 .footer-top-right{
   display: flex;
   align-items: center;

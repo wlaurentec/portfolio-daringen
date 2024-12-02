@@ -16,18 +16,18 @@ const Services_Data = [
     },
     {
         s_no:"04",
-        s_name:"WordPress Developer",
-        s_desc:"Developing and customizing WordPress themes, plugins, and websites."
+        s_name:"Full-Stack Development",
+        s_desc:"Combining frontend and backend development to build complete web applications."
     },
     {
         s_no:"05",
-        s_name:"Graphics Design",
-        s_desc:"Creating visual content, including logos, layouts, and branding materials."
+        s_name:"WordPress Developer",
+        s_desc:"Developing and customizing WordPress and Woocommerce websites."
     },
     {
         s_no:"06",
-        s_name:"Web Application Development",
-        s_desc:"Building full web applications, including both frontend and backend components."
+        s_name:"Graphics Design",
+        s_desc:"Creating visual content, including logos, layouts, and branding materials."
     },
 ]
 
