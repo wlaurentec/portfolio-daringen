@@ -15,11 +15,11 @@ const About = () => {
         </div>
         <div className="about-right">
           <div className="about-para">
-            <p>I am an experienced Frontend Developer with over a decade of professional expertise in the field. Throughout my career, I have had the privilege of collaborating with prestigious organizations, contributing to their success and growth.</p>
-            <p>My passion for frontend development is not only reflected in my extensive experience but also in the enthusiasm and dedication I bring to each project.</p>
+            <p>I am a Full Stack Developer with a background in finance, passionate about creating innovative tech solutions. My previous experience gave me deep insights into financial systems and business dynamics.</p>
+            <p>Leveraging technologies like MERN and PERN (MongoDB, PostgreSQL, Express, React, and Node.js), I build dynamic web applications. I excel at solving complex problems by blending financial expertise with cutting-edge technology.</p>
           </div>
           <div className="about-skills">
-            <div className="about-skill"><p>HTML & CSS</p><hr style={{ width: "50%" }} /></div>
+            <div className="about-skill"><p>HTML & CSS</p><hr style={{ width: "55%" }} /></div>
             <div className="about-skill"><p>JavaScript</p><hr style={{ width: "70%" }} /></div>
             <div className="about-skill"><p>React</p><hr style={{ width: "90%" }} /></div>
             <div className="about-skill"><p>Next JS</p><hr style={{ width: "80%" }} /></div>
@@ -29,16 +29,16 @@ const About = () => {
       <div className="about-achievements">
         <div className="about-achievement">
           <h1>10+</h1>
-          <p>YEARS OF EXPERIENCE</p>
+          <p>YEARS IN FINANCE</p>
         </div>
         <hr />
         <div className="about-achievement">
-          <h1>90+</h1>
+          <h1>10+</h1>
           <p>PROJECTS COMPLETED</p>
         </div>
         <hr />
         <div className="about-achievement">
-          <h1>15+</h1>
+          <h1>5+</h1>
           <p>HAPPY CLIENTS</p>
         </div>
       </div>

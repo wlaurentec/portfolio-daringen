@@ -7,11 +7,10 @@ const Hero = () => {
     <div className="hero" id="home">
       <img src={profile_img} alt="" />
       <h1>
-        <span>I'm Alex Bennett,</span> frontend developer based in USA.
+        <span>I'm Walter Laurente,</span> <br />Full Stack Developer.
       </h1>
       <p>
-        I am a frontend developer from California, USA with 10 years of
-        experience in multiple companies like Microsoft, Tesla and Apple.
+      I am a Full-Stack Developer with 1.5 years of experience working on a variety of projects, including eCommerce platforms, background removal tools, and text-to-image SaaS applications.
       </p>
       <div className="hero-action">
         <div className="hero-connect">

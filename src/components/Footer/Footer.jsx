@@ -8,8 +8,7 @@ const Footer = () => {
         <div className="footer-top-left">
           <img src={footer_logo} alt="" />
           <p>
-            I am a frontend developer from, USA with 10 years of experience in
-            companies like Microsoft, Tesla and Apple.
+          I am a Full-Stack Developer with 1.5 years of experience building dynamic and scalable web applications.
           </p>
         </div>
         <div className="footer-top-right">

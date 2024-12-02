@@ -62,15 +62,15 @@ const Contact = () => {
           <div className="contact-details">
             <div className="contact-detail">
               <img src={mail_icon} alt="" />
-              <p>greatcode@mail.com</p>
+              <p>wlaurente@daringen.com</p>
             </div>
             <div className="contact-detail">
               <img src={call_icon} alt="" />
-              <p>123-456-789</p>
+              <p>+51 948 566 562</p>
             </div>
             <div className="contact-detail">
               <img src={location_icon} alt="" />
-              <p>California, USA</p>
+              <p>Lima, PERÚ</p>
             </div>
           </div>
         </div>
