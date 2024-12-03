@@ -1,10 +1,10 @@
 import "./Footer.css";
-// import footer_logo from "../../assets/footer_logo.svg";
-// import user_icon from "../../assets/user_icon.svg";
+import footer_logo from "../../assets/footer_logo.svg";
+import user_icon from "../../assets/user_icon.svg";
 const Footer = () => {
   return (
     <div className="footer" >
-     {/*  <div className="footer-top">
+      <div className="footer-top">
         <div className="footer-top-left">
           <img src={footer_logo} alt="" />
           <p>
@@ -18,7 +18,7 @@ const Footer = () => {
           </div>
           <div className="footer-subscribe">Subscribe</div>
         </div>
-      </div> */}
+      </div>
       <hr />
       <div className="footer-bottom">
         <p className="footer-bottom-left">© 2024 All rights reserved</p>

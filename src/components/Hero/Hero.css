@@ -18,7 +18,8 @@
 }
 
 .hero h1 span {
-  background: linear-gradient(267deg, #df8908 10%, #b415ff 100%);
+  background: linear-gradient(135deg, #4e8ef7 0%, #00c6ff 100%);
+
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -43,7 +44,8 @@
 .hero-connect {
   padding: 20px 45px;
   border-radius: 10px;
-  background: linear-gradient(267deg, #da7c25 0.36%, #b923e1 102.06%);
+  background: linear-gradient(135deg, #4e8ef7 0%, #00c6ff 100%);
+
   cursor: pointer;
   transition: 0.3s;
 }
@@ -68,7 +70,7 @@
 }
 
 .hero-resume:hover {
-  border-color: #b415ff;
+  border-color: #4e8ef7;
   /* transform: scale(1.05); */
 }
 

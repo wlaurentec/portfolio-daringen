@@ -42,8 +42,10 @@
 }
 
 .nav-menu li:hover {
-  transform: scale(1.1);
+  transform: scale(1.2);
   transition: 0.5s;
+  /* color: #00c6ff; */
+  font-weight: 600;
 }
 
 .nav-menu li img {
@@ -89,7 +91,7 @@
     align-items: start;
     top: 0;
     gap: 30px;
-    background-color: #1f0016;
+    background-color: #4e8ef7;
     width: 350px;
     height: 100%;
     z-index: 2;

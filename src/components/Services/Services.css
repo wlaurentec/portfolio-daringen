@@ -45,7 +45,7 @@
 .services-format h2 {
   font-size: 38px;
   font-weight: 600;
-  background: linear-gradient(267deg, #da7c25 0.36%, #b923e1 102.06%);
+  background: linear-gradient(135deg, #4e8ef7 0%, #00c6ff 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -66,8 +66,9 @@
 }
 
 .services-format:hover {
-  border: 2px solid #da7c25;
-  background-image: linear-gradient(267deg, #3f0028 0.36%, #582300 102.06%);
+  border: 2px solid #00c6ff;
+  background-image: linear-gradient(267deg, #1a3c6c 0%, #2e8ccc 100%);
+
   transform: scale(1.05);
   transition: 0.4s;
 }
@@ -86,21 +87,21 @@
     width: 130px;
     right: -20px;
   }
-  .services-format{
+  .services-format {
     gap: 20px;
     padding: 32px;
   }
-  .services-format h2{
+  .services-format h2 {
     font-size: 28px;
   }
-  .services-format p{
+  .services-format p {
     font-size: 16px;
     line-height: 32px;
   }
-  .services-readmore img{
+  .services-readmore img {
     width: 20px;
   }
-  .services-container{
+  .services-container {
     grid-template-columns: repeat(2, 1fr);
     gap: 30px;
   }
