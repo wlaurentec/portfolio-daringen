@@ -41,6 +41,11 @@
   cursor: pointer;
 }
 
+.nav-menu li:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
 .nav-menu li img {
   display: flex;
   margin: auto;

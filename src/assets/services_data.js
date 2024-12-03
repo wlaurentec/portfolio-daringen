@@ -16,8 +16,8 @@ const Services_Data = [
     },
     {
         s_no:"04",
-        s_name:"Full-Stack Development",
-        s_desc:"Combining frontend and backend development to build complete web applications."
+        s_name:"Financial Analysis",
+        s_desc:"Evaluating financial data to provide insights and guide strategic business decisions."
     },
     {
         s_no:"05",
