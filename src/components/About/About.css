@@ -27,6 +27,12 @@
 .about-sections {
   display: flex;
   gap: 80px;
+
+}
+
+.about-left {
+  background-color: white;
+  border-radius: 5px;
 }
 
 .about-right {
